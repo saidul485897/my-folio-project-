@@ -1,0 +1,376 @@
+/* *COMMON CSS STRATS */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+li,ol{
+list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.align-center{
+    align-items: center;
+    
+}
+.justify-center{
+    justify-content: center;
+}
+
+
+/* *COMMON CSS ENDS */
+
+/* *NAVBAR STRATS */
+nav{
+    background-color:#02918c ;
+
+}
+
+nav .logo{
+    width: 40%;
+    margin: auto;
+}
+nav .menu{
+    width: 60%;   
+    text-align: right;
+
+}
+nav .menu li{
+    display: inline-block;
+    padding:25px 25px 25px 25px ;
+    
+}
+nav .menu li a{
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: 0.35s;
+    font-weight: 800px;
+}
+nav .menu li:hover a{
+    color:#CFC91D ;
+}
+.btn{
+    display: inline-block;
+    background-color:#cfc91d ;
+    padding: 20px 62px;
+    color: #0b1016;
+    font-weight: 800px;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 5px;
+
+}
+/* *NAVBAR ENDS */
+
+/* * banner section starts */
+#banner{
+    background-image: url(../images/banner.jpg);
+    height: 727px;
+    background-position: cover;
+}
+
+#banner .container,
+#banner .row{
+    height: 100%;
+}
+#banner .banner-cont{
+    text-align: center;
+}
+#banner .banner-cont h2{
+    color: white;
+    font-weight: 800px;
+    font-size: 30px;
+}
+#banner .banner-cont h1{
+    font-size: 46px;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+    color: white;
+    font-weight: 800px;
+}
+#banner .banner-cont p{
+    color:white;    
+    font-size: 18px;
+}
+#banner .banner-cont img{
+    padding: 52px 0px ;
+}
+
+/* * banner section ends */
+
+/* * about section starts */
+#about{
+   padding: 100px 0;
+    
+
+}
+#about .about-cont h2{
+    text-align: center;
+    color:#02918c ;
+    text-transform: uppercase;
+    font-weight: 800px;
+    font-size: 48px;
+}
+    
+#about .about-cont p{
+    color: #a8abb0;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px 30px;
+    line-height: 30px;
+
+}
+#about .about-cont p span{
+    color: #7e8287;
+    font-weight: 800px;
+    font-size: 23px;
+    text-align: center;
+
+
+}
+.about-cart{
+  width: 25%;  
+  text-align: center;
+  border-right: 2px solid #ccc;
+  margin-top: 50px;
+  padding: 40px 0;
+}
+.about-cart span{
+    color: #02918c;
+    font-size: 30px;
+}
+.about-cart h4{
+    font-weight: 800px;
+    color: #878a8f;
+    margin: 26px 0;
+
+}
+.about-cart p{              
+    color: #bbbdbb;
+    font-size: 11px;
+    font-weight: 300;
+    padding: 0 50px;
+    
+}
+.about-cart:last-child{
+    border: none;
+}
+    
+
+/* * about section ends */
+
+
+
+/* * services section starts */
+   #services{
+    background-color: rgba(255, 255, 255, 0.373);
+    background-blend-mode: multiply;
+    background-image: url(../images/services-bg.jpg);
+    height:728px ;
+    background-position: cover;
+   } 
+   #ser-div{
+    width: 45%;
+   }
+   .services-cont{
+    padding: 0 30px;
+   }
+   .services-cont h2{
+    color: #02918c;
+    font-weight: 800px;
+    font-size:46px ;
+    padding-top: 50px;
+   }
+   .services-cont span p{
+    padding: 10px 0;
+   }
+   .services-cont p{
+    font-size: 14px;
+    width: 445px;
+    color:#7e82879b;
+    line-height: 25px;
+   }
+
+   .services-cart{
+    width: 50%;
+    
+    padding: 30px 0 ;
+   }
+   .services-cart span{
+    display: inline-block;
+    color: #02918c;
+    font-size: 30px;
+    padding-bottom: 10px;
+   }
+   .services-cart h4{
+    font-weight: 800px;
+    color:#7e8287 ;
+    padding: 10px 0;
+
+   }
+   .services-cart p{
+    font-size: 11px;
+    color: #bbbdbb;
+    line-height: 20px;
+    padding: 10px;
+    text-align: start;
+   }
+
+/* * services section ends */
+
+
+/** Mywork section  starts */
+#my-work{
+    margin:100px 0 0px 0 ;
+    width: 100%;
+}
+.work-cont{
+    text-align: center;
+    
+}
+.work-cont h2{
+    color: #02918c;
+    font-weight: 800px;
+    font-size: 46px;
+    text-transform: uppercase;
+
+}
+.work-cont p{
+    color: #bbbdbb;
+    padding: 10px 0;
+}
+.work-cont .pera  {
+    color: #bbbdbb;
+    padding: 0 250px;
+    line-height: 35px;
+
+}
+#my-work .work-cart{
+width: 25%;
+position: relative;
+
+
+}
+#my-work .work-cart img{
+    width: 100%;
+    display: block;
+    height: 233px;
+    
+
+}
+
+#my-work .work-cart .overlay{
+    
+    position: absolute;
+    background-color: #02918c84;
+    inset: 20px;
+    text-align: center;
+    padding: 40px 25px ;
+    transition: 0.6s;
+    transform: scale(0);
+    opacity: 0;
+    border-radius: 12px;
+}
+#my-work .work-cart:hover .overlay{
+
+    transform: scale(1);
+    opacity: 1;
+}
+
+#my-work .work-cart .overlay h4{
+    padding: 10px 0;
+    color: white;
+    text-align: center;
+    font-weight: 800px;
+    
+}
+.work-cart .overlay p{
+    color: #e1f1f0;
+    font-size: 13px;
+}
+/** Mywork section  ends */
+
+/* * contact section starts */
+
+#contact .work-cont{
+    padding-top: 100px;
+    padding-bottom:75px ;
+}
+#contact .contact-form{
+    padding-top:65px;
+    background-color:#0b0b0b ;
+    text-align: center;
+}
+/* #contact .primary-input{
+    background-color: transparent !important;
+} */
+#contact .form-input {
+    
+    margin: auto;
+   margin-bottom: 20px;
+}
+
+#contact .form-input .primary-input{
+    width: 640px;
+    border: none;
+    outline: none;
+    background-color: transparent !important;
+    border-bottom: 1px solid white;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px;
+    
+    
+}
+#contact .large-input{
+    /* padding: 20px; */
+    width: 920px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px;
+    
+
+       
+}
+#contact .btn{
+    margin: 30px 0 70px 0;
+    display: inline-block;
+    
+    
+}
+#contact .btn a{
+    color:#0b1016 ;
+    font-weight: 800px;
+
+}
+
+/* * contact section ends */
+
+/* * copy right section starts */
+#copy-right{
+    background-color:#000000 ;
+}
+#copy-right .copy-cont{
+    text-align: center;
+    padding: 35px 0 ;
+    color: #7b7f84;
+}
+/* * copy right section ends */
